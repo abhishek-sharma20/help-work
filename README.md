@@ -5,7 +5,7 @@
 Just run the following commands in your terminal to start coding
 
 ```bash
-$ git clone https://github.com/shahbazhassan42000/mazdoor.git
+$ git clone https://github.com/abhishek-sharma20/help-work.git
 $ cd mazdoor
 $ npm install
 ```
