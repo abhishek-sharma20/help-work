@@ -6,7 +6,7 @@ Just run the following commands in your terminal to start coding
 
 ```bash
 $ git clone https://github.com/abhishek-sharma20/help-work.git
-$ cd mazdoor
+$ cd help-work
 $ npm install
 ```
 
