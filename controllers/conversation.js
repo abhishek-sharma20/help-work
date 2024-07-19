@@ -4,7 +4,7 @@ import "../models/user.js";
 import "../models/message.js";
 import "../models/conversation.js";
 
-const User = mongoose.model("users");
+const User = mongoose.model("users"); 
 const Message = mongoose.model("messages");
 const Conversation = mongoose.model("conversations");
 
