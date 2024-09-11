@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 import "../models/user.js";
-import mongoose from "mongoose";
+import mongoose from "mongoose"; 
 const User = mongoose.model("users");
 export default {
   authenticate(req, res, next) {
