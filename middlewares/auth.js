@@ -7,7 +7,7 @@ export default {
     const secretKey = process.env.SECRET_KEY;
     const authHeader = req.headers['authorization'];
     const token = authHeader && authHeader.split(' ')[1];
-    if (!token) {
+    if (!token) { 
       console.log("token not found");
       return res.status(401).json({ message: 'Unauthenticated' });
     }
