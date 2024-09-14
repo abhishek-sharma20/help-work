@@ -7,7 +7,7 @@ const { map } = _;
 const LaborsType = mongoose.model("LaborsType");
 
 
-export default {
+export default { 
   getAll(req, res, next) {
     LaborsType.find().then((laborsType) => {
       return res.json(map(laborsType, (type) => CapitalizeAll(type.name)));
